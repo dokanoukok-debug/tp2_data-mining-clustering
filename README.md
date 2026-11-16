@@ -45,8 +45,8 @@ Au total : **3 387 documents**. Les en-têtes, signatures et citations des messa
 Il suffit d'avoir **Docker** installé.
 
 ```bash
-git clone https://github.com/kossi-ctrl/tp2_data-mining.git
-cd tp2_data-mining
+git clone https://github.com/dokanoukok-debug/tp2_data-mining-clustering.git
+cd tp2_data-mining-clustering
 docker build -t tp2-data-mining .
 docker run -p 8888:8888 tp2-data-mining
 ```
@@ -68,7 +68,11 @@ Si le port 8888 est déjà utilisé, remplacer le premier `8888` par un autre nu
 
 ## 👥 Auteurs
 
-- **Kossi Zangbe**
+Projet réalisé en binôme :
+
 - **Kokou Dokanu**
+- **Kossi Zangbe**
+
+Dépôt d'origine : [kossi-ctrl/tp2_data-mining](https://github.com/kossi-ctrl/tp2_data-mining)
 
 Master Humanités Numériques, Ingénierie des Données · Université de Tours (CESR)
